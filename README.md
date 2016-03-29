@@ -1,4 +1,4 @@
-# RepoSsessed-
+# RepoSsessed
 
 RepoSsessed is a project designed to parse public source code repositories and find various types of vulnerabilities. 
 
