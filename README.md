@@ -21,12 +21,7 @@ The reason this project was created was twofold:
 
 1. To add **source code flaws** to the public source code repository conversation. So, not just looking for information disclosure, but actual coding flaws as well, e.g., input validation mistakes that can lead to critical bugs in various languages. 
 2. I am looking to **collapse all useful code repository signatures, including my own for coding flaws, into a single, flat, transparent format that can be used by ANY engine**. This way you can write whatever interface you'd like and use the evergreen signatures from this project.
-
-Another difference between this project and others is that I'm not looking to leverage the Github search API for this effort. 
-
-Searching via the API is hit or miss, and much of its more powerful (dangerous) functionality has been limited anyway. Plus, even with an API key you get 403'd pretty quickly.
-
-So to avoid all that, this tool is designed to do local searches post-cloning.
+3. Due to regular issues with leveraging search APIs, e.g., limiting sensitive (dangerous) searches and rate limiting, **this project works by searching the repo locally** post-clone.
 
 ## Usage
 
