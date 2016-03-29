@@ -19,8 +19,8 @@ Finding flaws in public source code repositories is not a new idea, and many hav
 
 The reason this project was created was twofold:
 
-1. To add source code flaws to the public source code repository conversation. So, not just looking for information disclosure, but actual coding flaws as well, e.g., input validation mistakes that can lead to critical bugs in various languages. 
-2. I am looking to collapse all useful code repository signatures, including my own for coding flaws, into a single, flat, transparent format that can be used by ANY engine. This way you can write whatever interface you'd like and use the evergreen signatures from this project.
+1. To add **source code flaws** to the public source code repository conversation. So, not just looking for information disclosure, but actual coding flaws as well, e.g., input validation mistakes that can lead to critical bugs in various languages. 
+2. I am looking to **collapse all useful code repository signatures, including my own for coding flaws, into a single, flat, transparent format that can be used by ANY engine**. This way you can write whatever interface you'd like and use the evergreen signatures from this project.
 
 ## Credits
 
