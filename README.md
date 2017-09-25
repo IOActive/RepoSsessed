@@ -1,17 +1,12 @@
 # RepoSsessed
 
-RepoSsessed is a project designed to parse public source code repositories and find various types of vulnerabilities. Here are some of the methods I'm looking at including.
+RepoSsessed is a project designed to parse public source code repositories and find various types of vulnerabilities. The current focus is on finding secrets, but see the Next Steps section to see what is being added.
 
-- Coding flaws that lead to critical vulnerabilities
-- Hardcoded passwords
-- Sensitive configuration files
-- Database connection strings
-- Private SSL keys
-- Private SSH keys
-- Uploaded Unix/Linux home directories, with sensitive dotfiles
-- <code>~/.ssh</code> directories full of keys
-- Source code of projects you're currently doing blackbox testing on
-- Etc...
+The tool has two main audiences:
+
+1. Internal teams looking to make sure they don't have secrets in their code repositories.
+2. Consultants looking to check their customers' repositories for secrets, i.e., vulnerabilities.
+
 
 ## Philosophy
 
@@ -38,6 +33,19 @@ There are two primary ways to use this project.
 2. Use the provided scripts to perform the actual searches.
 
 If you're doing #2, simply clone this repo, <code>cd</code> into it, drop the repo you want to test into the <code>./target</code> directory, and then run the <code>./repossessed.sh</code> script, which will create your results in <code>results.txt</code>.
+
+## Next steps
+
+With secrets being covered fairly well, the next thing I want to add to the project are some rudimentary source code checks.
+
+- Use of deprecated APIs within code.
+- Use of dangerous functions.
+- Use of blacklisted patterns.
+- Etc.
+
+Basically, if it's possible to <code>grep</code> for a string within a particular language's code, and find something that should not ever be done, I'm going to try to include it here.
+
+High false negative, but also low false positive. I think that's the right tradeoff for something like this. And if you have any examples you'd like to see included, please let me know via Issues.
 
 ## Credits
 
