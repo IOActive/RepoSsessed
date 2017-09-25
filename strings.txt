@@ -1,0 +1,1 @@
+BEGIN[[:space:]]RSA[[:space:]]PRIVATE[[:space:]]KEY
