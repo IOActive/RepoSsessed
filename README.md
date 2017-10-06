@@ -25,12 +25,17 @@ Currently the tool works in two ways:
 1. Searches within a repo for a number of sensitive files.
 2. Searches within a repo for a number of sensitive strings within files.
 
+## Installation
+
+1. Clone the directory.
+2. Install <code>ripgrep</code>.
+
 ## Usage
 
 There are two primary ways to use this project.
 
-1. Create your own tool and use the <code>filetypes.txt</code> and <code>strings.txt</code> files as your search content.
-2. Use the provided scripts to perform the actual searches.
+1. Create your own tool and use the <code>filetypes.txt</code> and <code>strings.txt</code> and <code>regex.txt</code> files as your search content.
+2. Use the provided script to perform the actual searches.
 
 If you're doing #2, simply clone this repo, <code>cd</code> into it, drop the repo you want to test into the <code>./target</code> directory, and then run the <code>./repossessed.sh</code> script, which will create your results in <code>results.txt</code>.
 
