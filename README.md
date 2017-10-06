@@ -37,7 +37,7 @@ There are two primary ways to use this project.
 1. Create your own tool and use the <code>filetypes.txt</code> and <code>strings.txt</code> and <code>regex.txt</code> files as your search content.
 2. Use the provided script to perform the actual searches.
 
-If you're doing #2, simply clone this repo, <code>cd</code> into it, drop the repo you want to test into the <code>./target</code> directory, and then run the <code>./repossessed.sh</code> script, which will create your results in <code>results.txt</code>.
+If you're doing #2, simply clone this repo, <code>cd</code> into it, drop the repo you want to test into the <code>./target</code> directory, and then run the <code>./repossessed.sh</code> script, which will send your results to the console.
 
 ## Next steps
 
@@ -56,8 +56,8 @@ High false negative, but also low false positive. I think that's the right trade
 
 I'd like to give credit to the following people for either their prior work or their contributions:
 
-- Samar Dhwoj Acharya for allowing me to use signatures from his Github Dorks project
-- Michael Henriksen for allowing me to use signature files from his GitRob project
+- Samar Dhwoj Acharya for allowing me to use signatures from his Github Dorks project.
+- Michael Henriksen for allowing me to use signature files from his GitRob project.
 - Thanks to the creator of <code>ripgrep</code> for making such a nice implementation of grep.
 
 ### Notes
