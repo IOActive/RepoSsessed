@@ -58,6 +58,7 @@ I'd like to give credit to the following people for either their prior work or t
 
 - Samar Dhwoj Acharya for allowing me to use signatures from his Github Dorks project
 - Michael Henriksen for allowing me to use signature files from his GitRob project
+- Thanks to the creator of <code>ripgrep</code> for making such a nice implementation of grep.
 
 ### Notes
 
